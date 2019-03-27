@@ -13,7 +13,7 @@ class App extends Component {
       {
         id: 2,
         title: 'Dinner with friends',
-        completed: true
+        completed: false
       },
       {
         id: 3,
@@ -23,19 +23,25 @@ class App extends Component {
     ]
   }
 
+// Toggles checkbox boolean value
   checkComplete = (id) => {
     this.setState ({ todos: this.state.todos.map(todo => {
       if(todo.id === id) {
         todo.completed = !todo.completed
       }
       return todo;
-    })})
+    }) })
   }
+
+// Delete Todo item from list
+delTodo = (id) => {
+  this.setState({ todos: [...this.state.todos.filter(todo => todo.id !== id)]});
+}
 
   render() {
     return (
       <div className="App">
-        <Todos todos={this.state.todos} checkComplete={this.checkComplete}/>
+        <Todos todos={this.state.todos} checkComplete={this.checkComplete} delTodo={this.delTodo}/>
       </div>
     );
   }
