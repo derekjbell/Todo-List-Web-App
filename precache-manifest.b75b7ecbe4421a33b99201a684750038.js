@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "cf984fc0d5b0f00c0fad",
+    "revision": "c63c1846a98209c79e66",
     "url": "/Todo-List-Web-App/static/css/main.8948f4ef.chunk.css"
   },
   {
-    "revision": "cf984fc0d5b0f00c0fad",
-    "url": "/Todo-List-Web-App/static/js/main.fd6523b5.chunk.js"
+    "revision": "c63c1846a98209c79e66",
+    "url": "/Todo-List-Web-App/static/js/main.a7d52a6b.chunk.js"
   },
   {
     "revision": "c13c09499edb79b427d9",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/Todo-List-Web-App/static/js/2.c75d3c23.chunk.js"
   },
   {
-    "revision": "7bebe3cf3a56361ee8a635da1065bb43",
+    "revision": "136b74945a9d64930eaf58bf84073e8e",
     "url": "/Todo-List-Web-App/index.html"
   }
 ];
